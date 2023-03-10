@@ -1,0 +1,12 @@
+.contact-us{
+    position: relative;
+    opacity:0.5
+}
+
+.submit-button{
+    background-color: #2380c0;
+}
+
+.submit-button:hover {
+    background-color: #aaa; 
+}

@@ -1,0 +1,25 @@
+.footer {
+    background-color: #09111a;
+}
+
+.footer ul li a:hover{
+    color: #2380c0;
+    text-decoration:underline;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.twitter {
+    background-color:#48b5f4;
+}
+.facebook {
+    background-color:#207bef;
+}
+.instagram {
+    background-color:#383838;
+}
+.linkedin {
+    background-color:#207bef;
+}
+.youtube {
+    background-color:#e41d2b;
+}

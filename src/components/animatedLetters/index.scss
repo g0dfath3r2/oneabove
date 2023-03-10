@@ -1,0 +1,37 @@
+.text-animate {
+    display: inline-block;
+    opacity:0;
+    animation: backInDown 500ms ease;
+    animation-fill-mode: forwards;
+    min-width:10px;
+}
+
+// .text-animate-hover {
+//     animation-fill-mode:both;
+//     display: inline-block;
+//     min-width:10px;
+
+//     &:hover{
+//         animation: rubberBand 1s;
+//         color: #aaa;
+//     }
+// }
+
+@for $i from 1 through 255 {
+    .text-animate._#{$i} {
+        animation-delay: #{$i /10}s ;
+    }
+}
+
+/* .text-animate-hover:hover {
+    animation:rubberBand
+} */
+
+// @keyframes bounce {
+//     0%{
+//         opacity: 0
+//     }
+//     100% {
+//         opacity:1;
+//     }
+// }
