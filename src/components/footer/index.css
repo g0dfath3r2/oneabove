@@ -23,3 +23,37 @@
 .youtube {
     background-color:#e41d2b;
 }
+
+
+@media screen and (max-width: 560px){
+    footer {
+        width:100vw;
+    }
+    .footer-media-links {
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0, 1fr));
+        width:100vw;
+
+    }
+    .footer-media-links li {
+        width:100%;
+    }
+    .footer-section{
+        display:block;
+    }
+    .footer-section img{
+        height:100%;
+        width:100%;
+    }
+    .footer-section h1 {
+        font-size:1.5rem;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+    .footer-section div {
+        margin-top:8px;
+    }
+    .footer-copyright p{
+        color:#fff;
+    }
+}

@@ -1,0 +1,28 @@
+@media screen and (max-width:560px){
+    .team-members{
+        width:100vw;
+        margin-top:40px;
+        /* padding: 60px 10px; */
+    }
+    .team-members h3{
+        font-size: 1rem;
+    }
+    .team-members h1{
+        font-size: 2rem;
+    }
+    .team-section{
+        display:block;
+        padding: 60px 10px;
+        width:100vw;
+
+    }
+    .team-section > div > img{
+        display:block;
+        padding: 10px 80px;
+
+    }
+    .team-section p{
+        font-size:2rem;
+        font-weight: 400;
+    }
+}

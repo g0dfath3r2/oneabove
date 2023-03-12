@@ -4,7 +4,7 @@ import "./index.css";
 const Card = () => {
   return (
     <div className="border text-left card">
-      <div className="flex flex-col p-8">
+      <div className="flex flex-col px-8 py-4">
         <HiLightBulb size={20} style={{marginBottom:"10px"}}/>
         <h1 className="text-2xl font-bold mb-4">Card</h1>
         <p>

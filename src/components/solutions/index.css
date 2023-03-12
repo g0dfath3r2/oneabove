@@ -1,3 +1,37 @@
 .solutions{
     background-color: #f7f7fe;
 }
+
+@media screen and (max-width:560px){
+    .solutions{
+        padding:0
+    }
+    .solutions-section{
+        display:block;
+    }
+    .solutions-section h1{
+        font-size:2rem;
+    }
+    .solutions-section p{
+        font-size:1rem;
+        color: #445658;
+    }
+    .solutions-card-section{
+        display:block
+    }
+    .solutions-card{
+        position:static;
+        margin-top:30px;
+    }
+    .solutions-card h1{
+        font-size:1.7rem;
+        font-weight:600;
+    }
+    .solutions-card p{
+        font-size:1rem;
+        color:#115658;
+    }
+    .solutions-card span{
+        font-size:1rem;
+    }
+}

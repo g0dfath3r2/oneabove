@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.scss';
 import {Routes, Route} from "react-router-dom";
-import Header from './components/header';
+import Header from './components/header/desktop-header';
 import Footer from './components/footer';
 import Home from './pages/home';
 import ContactUs from './pages/contact-us';
 import AboutUs from './pages/about-us';
+import Mobileheader from './components/header/mobile-header';
 
 function App() {
   return (

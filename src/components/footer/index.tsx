@@ -14,7 +14,7 @@ const Footer = () => {
     <div className="w-full">
       <footer>
         <nav className="">
-          <ul className="flex items-center w-full">
+          <ul className="flex items-center w-full footer-media-links">
             <li className="w-3/12 px-2 py-4 twitter text-white">
               <a href="#" className="flex items-center justify-center">
                 <AiOutlineTwitter size={20} className="mr-2" /> Twitter
@@ -48,7 +48,7 @@ const Footer = () => {
         </nav>
 
         <div className="footer px-4 py-12">
-          <div className=" grid grid-cols-4">
+          <div className=" grid grid-cols-4 footer-section">
             <div className="text-left">
               <img src={OneAboveLogo} alt="" className="h-40" />
               {/* <ul className="flex flex-col ">
@@ -122,7 +122,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="z-50 relative px-10 mt-8">
+          <div className="z-50 relative px-10 mt-8 footer-copyright">
             <p className="text-gray-500">Copyrights © {year} Osans Studio. All Rights Reserved.</p>
           </div>
         </div>

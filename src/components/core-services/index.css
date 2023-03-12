@@ -2,3 +2,29 @@
 .services{
     color: #2380c0;
 }
+
+.service-container .service-card-container{
+    display:grid ;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    /* width:100vw ; */
+}
+
+@media screen and (max-width: 560px) {
+    .service-container{
+        width:100vw;
+        padding:0;
+        margin-top:40px;
+    }
+    .service-container span {
+        font-size:2rem;
+    }
+    .service-container p {
+        font-size:1rem;
+    }
+    .service-container .service-card-container{
+        display:block ;
+        width:100vw ;
+        /* margin-top:5px; */
+    }
+}

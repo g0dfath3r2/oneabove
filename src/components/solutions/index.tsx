@@ -5,11 +5,11 @@ import "./index.css";
 const Solutions = () => {
   return (
     <div className="px-40 py-16 solutions">
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-4 solutions-section">
         <div className="flex flex-col text-start leading-relaxed">
           <div>
-            <h1 style={{color: "#2380c0"}} className="text-xl">Our</h1>
-            <p className="text-5xl font-bold my-2">Solutions For</p>
+            <p style={{color: "#2380c0"}} className="text-xl">Our</p>
+            <h1 className="text-5xl font-bold my-2">Solutions For</h1>
           </div>
           <p>
             Innovation is the mainstay for every business that leads to
@@ -22,8 +22,8 @@ const Solutions = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
-          <div className="flex flex-col text-start p-4 shadow-md bg-white h-72 rounded relative -top-10">
+        <div className="grid grid-cols-2 gap-4 solutions-card-section">
+          <div className="flex flex-col text-start p-4 shadow-md bg-white h-72 rounded relative -top-10 solutions-card">
             <div className="my-auto h-1/4 flex flex-col p-4 leading-10">
               <h1>Corporate</h1>
               <p>Services our Services</p>
@@ -34,7 +34,7 @@ const Solutions = () => {
             </div>
           </div>
 
-          <div className="flex flex-col text-start p-4 shadow-md bg-white h-72 rounded">
+          <div className="flex flex-col text-start p-4 shadow-md bg-white h-72 rounded solutions-card">
             <div className="my-auto h-1/4 flex flex-col p-4 leading-10">
               <h1>University</h1>
               <p>E-suite e-Suite...</p>
@@ -45,7 +45,7 @@ const Solutions = () => {
             </div>
           </div>
 
-          <div className="flex flex-col text-start p-4 shadow-md bg-white h-72 rounded relative -top-10">
+          <div className="flex flex-col text-start p-4 shadow-md bg-white h-72 rounded relative -top-10 solutions-card">
           <div className="my-auto h-1/4 flex flex-col p-4 leading-10">
             <h1>Startups & MSME</h1>
             <p>Services our Services</p>
@@ -56,7 +56,7 @@ const Solutions = () => {
             </div>
           </div>
 
-          <div className="flex flex-col text-start p-4 shadow-md bg-white h-72 rounded">
+          <div className="flex flex-col text-start p-4 shadow-md bg-white h-72 rounded solutions-card">
           <div className="my-auto h-1/4 flex flex-col p-4 leading-10">
             <h1>Legal Firms</h1>
             <p>Services our Services</p>
