@@ -1,7 +1,9 @@
 /* nav.stroke ul.flex.justify-between.items-center.w-9\/12 li a, */
 .header {
   z-index: 10;
+  background-color: rgba(0,0,0,0.8)
 }
+
 nav.fill ul {
   display: flex;
   justify-content: space-between;

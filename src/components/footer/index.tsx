@@ -1,10 +1,10 @@
 import {
-  AiOutlineTwitter,
-  AiOutlineFacebook,
-  AiOutlineYoutube,
-  AiOutlineInstagram,
-  AiOutlineLinkedin,
-} from "react-icons/ai";
+  BsTwitter,
+  BsFacebook,
+  BsYoutube,
+  BsInstagram,
+  BsLinkedin,
+} from "react-icons/bs";
 import "./index.css";
 import OneAboveLogo from "../../assets/images/Oneabove.png";
 
@@ -13,41 +13,9 @@ const Footer = () => {
   return (
     <div className="w-full">
       <footer>
-        <nav className="">
-          <ul className="flex items-center w-full footer-media-links">
-            <li className="w-3/12 px-2 py-4 twitter text-white">
-              <a href="#" className="flex items-center justify-center">
-                <AiOutlineTwitter size={20} className="mr-2" /> Twitter
-              </a>
-            </li>
-            <li className="w-3/12 px-2 py-4 facebook text-white">
-              <a href="#" className="flex items-center justify-center">
-                <AiOutlineFacebook size={20} className="mr-2" />
-                Facebook
-              </a>
-            </li>
-            <li className="w-3/12 px-2 py-4 instagram text-white">
-              <a href="#" className="flex items-center justify-center">
-                <AiOutlineInstagram size={20} className="mr-2" />
-                Instagram
-              </a>
-            </li>
-            <li className="w-3/12 px-2 py-4 linkedin text-white">
-              <a href="#" className="flex items-center justify-center">
-                <AiOutlineLinkedin size={20} className="mr-2" />
-                Linkedin
-              </a>
-            </li>
-            <li className="w-3/12 px-2 py-4 youtube text-white">
-              <a href="#" className="flex items-center justify-center">
-                <AiOutlineYoutube size={20} className="mr-2" />
-                Youtube
-              </a>
-            </li>
-          </ul>
-        </nav>
+       
 
-        <div className="footer px-4 py-12">
+        <div className="footer px-4 py-12 relative">
           <div className=" grid grid-cols-4 footer-section">
             <div className="text-left">
               <img src={OneAboveLogo} alt="" className="h-40" />
@@ -125,7 +93,43 @@ const Footer = () => {
           <div className="z-50 relative px-10 mt-8 footer-copyright">
             <p className="text-gray-500">Copyrights © {year} Osans Studio. All Rights Reserved.</p>
           </div>
+          <nav className="absolute right-0 top-0 h-full">
+          <ul className="flex flex-col items-center w-full footer-media-links right-40 h-full">
+            <li className=" p-4 items-center flex twitter text-white h-full">
+              <a href="#" className="flex items-center justify-center">
+                <BsTwitter size={20} className="mr-2" /> 
+                {/* Twitter */}
+              </a>
+            </li>
+            <li className=" p-4 items-center flex facebook text-white h-full">
+              <a href="#" className="flex items-center justify-center">
+                <BsFacebook size={20} className="mr-2" />
+                {/* Facebook */}
+              </a>
+            </li>
+            <li className=" p-4 items-center flex instagram text-white h-full">
+              <a href="#" className="flex items-center justify-center">
+                <BsInstagram size={20} className="mr-2" />
+                {/* Instagram */}
+              </a>
+            </li>
+            <li className=" p-4 items-center flex linkedin text-white h-full">
+              <a href="#" className="flex items-center justify-center">
+                <BsLinkedin size={20} className="mr-2" />
+                {/* Linkedin */}
+              </a>
+            </li>
+            <li className=" p-4 items-center flex youtube text-white h-full">
+              <a href="#" className="flex items-center justify-center">
+                <BsYoutube size={20} className="mr-2" />
+                {/* Youtube */}
+              </a>
+            </li>
+          </ul>
+        </nav>
         </div>
+
+       
       </footer>
     </div>
   );

@@ -8,12 +8,9 @@ const Card = () => {
         <HiLightBulb size={20} style={{marginBottom:"10px"}}/>
         <h1 className="text-2xl font-bold mb-4">Card</h1>
         <p>
-          We Expertise patent analysts, innovation intelligence specialists,
-          technical specialists, licensing analysts, patent agents, and IP
-          docketing specialists
-          We Expertise patent analysts, innovation intelligence specialists,
-          technical specialists, licensing analysts, patent agents, and IP
-          docketing specialists
+        Lorem Ipsum rendom text is necessary for testing sometimes.Lorem Ipsum rendom text is necessary for testing sometimes.
+        Lorem Ipsum rendom text is necessary for testing sometimes.Lorem Ipsum rendom text is necessary for testing sometimes.
+        Lorem Ipsum rendom text is necessary for testing sometimes.Lorem Ipsum rendom text is necessary.
         </p>
       </div>
     </div>

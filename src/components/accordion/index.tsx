@@ -44,27 +44,16 @@ const Accordion = () => {
       </div>
       <div className={`${buttonToggle === "mission" ? "flex " : "hidden"}`}>
         <p>
-          An “En-Noble” lends greater dignity or nobility in innovation through
-          novelty that triggers the journey of an idea en route to a path
-          breaking Innovation. At Ennoble IP, we endeavor to encourage, protect
-          and commercialize Innovations. Our mission is to become one-stop
-          solution for all kind of IP & research services of the highest quality
-          at reasonable cost. Our customers can recognize their IP asset and
-          relish the worldwide protection of their IP rights. We Individualized
-          legal advice, assistance, generating value for customers and the
-          company alike. Behind these goals stands the philosophy that the key
-          to our success is the experience gathered, the stability that
-          accompanied the consolidation of our business, and the young, driven
-          and innovative spirit that characterizes our undertakings. We protect
-          your intellectual assets and help increase their value.
+          Lorem Ipsum rendom text is necessary for testing sometimes.Lorem Ipsum rendom text is necessary for testing sometimes.
+          Lorem Ipsum rendom text is necessary for testing sometimes.Lorem Ipsum rendom text is necessary for testing sometimes.
+          Lorem Ipsum rendom text is necessary for testing sometimes.Lorem Ipsum rendom text is necessary for testing sometimes.
+          Lorem Ipsum rendom text is necessary for testing sometimes.Lorem Ipsum rendom text is necessary for testing sometimes.
         </p>
       </div>
       <div className={`${buttonToggle === "vision" ? "flex" : "hidden"}`}>
         <p>
-          Our vision provides a direction and goal for all our undertakings. We
-          aspire to become the market leader in Research and Analytics by
-          delivering state-of-the-art services and setting the industry standard
-          for quality, security, stability and value on a worldwide scale.
+        Lorem Ipsum rendom text is necessary for testing sometimes.Lorem Ipsum rendom text is necessary for testing sometimes.
+        Lorem Ipsum rendom text is necessary for testing sometimes.
         </p>
       </div>
     </div>

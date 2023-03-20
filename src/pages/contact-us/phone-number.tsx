@@ -8,7 +8,7 @@ const PhoneNumber = () => {
         <AiOutlineMail size={40} style={{color: "#2380c0"}} />
         <div className="flex flex-col text-start ml-6">
           <h1 className="text-xl font-medium">Phone Number</h1>
-          <p className="text-gray-500">0120 421 0639</p>
+          <p className="text-gray-500">0123 456 7890</p>
         </div>
       </div>
     </div>

@@ -15,10 +15,10 @@ const Form = () => {
               name="name"
               id=""
               placeholder="Enter Your Name*"
-              className="p-4 border-2 w-2/4 mb-6"
+              className="p-4 border-2 w-3/4 mb-6"
             />
             <input
-              className="p-4 border-2 w-2/4 mb-6"
+              className="p-4 border-2 w-3/4 mb-6"
               type="email"
               name="email"
               id=""
@@ -29,10 +29,10 @@ const Form = () => {
               name="services"
               id=""
               placeholder="Services*"
-              className="p-4 border-2 w-2/4"
+              className="p-4 border-2 w-3/4"
             />
             <input
-              className="p-4 border-2 w-2/4"
+              className="p-4 border-2 w-3/4"
               type="number"
               name="phone_number"
               id=""

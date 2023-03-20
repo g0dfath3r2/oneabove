@@ -8,12 +8,12 @@ const Services = () => {
       <h1 className="pb-4 services text-center">
         <span className="flex items-center justify-center">
           <FaServicestack size={20} />
-          <span className="text-2xl ml-2 font-medium"> Core Services</span>
+          <span className="text-2xl ml-2 font-medium"> Headline</span>
         </span>
       </h1>
       <p className="font-bold text-lg pb-8">
-        It is a long established fact that a reader will be distracted by.It is
-        a long established fact that a reader will be distracted by
+        Lorem Ipsum random text.Lorem Ipsum random text.Lorem Ipsum random text.Lorem Ipsum random text.
+        Lorem Ipsum random text.Lorem Ipsum random text.Lorem Ipsum random text.
       </p>
 
       <div className="service-card-container">

@@ -4,7 +4,7 @@ import "./index.css";
 import { AiOutlineBars, AiOutlineClose } from "react-icons/ai";
 
 const Header = () => {
-  const [isNavOpen, setIsnavOpen] = useState(true);
+  const [isNavOpen, setIsnavOpen] = useState(false);
 
   const handleNavOpen = () => {
     setIsnavOpen(!isNavOpen);
