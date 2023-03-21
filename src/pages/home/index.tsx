@@ -10,7 +10,7 @@ import "./index.css";
 
 const Home = () => {
   return (
-    <div className="p-1">
+    <div className="home-container">
       <Carousel />
       <About name="One Above" />
       <Services />

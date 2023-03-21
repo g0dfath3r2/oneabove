@@ -9,7 +9,7 @@ const Carousel = () => {
     
   return (
     // <AnimatePresence>
-    <div className="">
+    <div className="carousel-container">
       <div className="">
        
         {/* <h1 className="text-5xl mb-8">Carousel</h1>

@@ -7,7 +7,7 @@ import Home from './pages/home';
 import ContactUs from './pages/contact-us';
 import AboutUs from './pages/about-us';
 import Mobileheader from './components/header/mobile-header';
-
+import "tw-elements";
 function App() {
   return (
     <div className="App">

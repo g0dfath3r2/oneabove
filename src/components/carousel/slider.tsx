@@ -5,14 +5,13 @@ import { AnimatePresence, motion } from "framer-motion";
 import AnimatedLetters from "../animatedLetters";
 import CarouselImg from "../../assets/images/random.jpg";
 import "./index.css";
-import 'tw-elements';
 
 type interfaceSlider = {
   images: Array<string>;
 };
 
 export default function CarouselSlider(props: interfaceSlider) {
-  // const [letterclass, setLetterclass] = useState("text-animate");
+  // const [letterclassName, setLetterclassName] = useState("text-animate");
   const name = "Carousel";
   const name2 = "Carousel 2";
   const name3 = "Carousel 3";
@@ -38,18 +37,18 @@ export default function CarouselSlider(props: interfaceSlider) {
 
   //   useEffect(()=>{
   //     setTimeout(()=>{
-  //         return setLetterclassName("text-animate-hover")
+  //         return setLetterclassNameName("text-animate-hover")
   //     }, 4000);
   //   }, [])
   return (
     <div
       id="carouselExampleCrossfade"
-      className=""
+      className="relative"
       data-te-carousel-init
       data-te-carousel-slide
     >
       <div
-        className="absolute inset-x-0 bottom-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0 carousel"
+        className="absolute inset-x-0 bottom-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
         data-te-carousel-indicators
       >
         <button
@@ -83,10 +82,9 @@ export default function CarouselSlider(props: interfaceSlider) {
           data-te-carousel-item
           data-te-carousel-active
         >
-          {/* <a href="#" style={{backgroundImage:`url(${CarouselImg || ''})`}}></a> */}
           <img
-            src={CarouselImg || 'https://images.unsplash.com/photo-1506501139174-099022df5260?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80'}
-            className="block w-full bg-black"
+            src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
+            className="block w-full"
             alt="Wild Landscape"
           />
         </div>
@@ -96,7 +94,7 @@ export default function CarouselSlider(props: interfaceSlider) {
           data-te-carousel-item
         >
           <img
-            src={CarouselImg || ''}
+            src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
             className="block w-full"
             alt="Camera"
           />
@@ -107,7 +105,7 @@ export default function CarouselSlider(props: interfaceSlider) {
           data-te-carousel-item
         >
           <img
-            src={CarouselImg || ''}
+            src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
             className="block w-full"
             alt="Exotic Fruits"
           />

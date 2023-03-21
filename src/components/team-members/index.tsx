@@ -19,58 +19,58 @@ const TeamMembers = () => {
       <div className="grid grid-cols-4 gap-6 team-section">
         <div className="flex flex-col">
           <img
-            src="https://www.ennobleip.com/wp-content/uploads/2022/03/ss.jpg"
-            alt=""
+            src=""
+            alt="img 1"
           />
           <p className="text-xl font-medium text-gray-500 p-2">Name</p>
         </div>
         <div className="flex flex-col">
           <img
-            src="https://www.ennobleip.com/wp-content/uploads/2022/07/Dinesh-Jotwanit-01-1.jpg"
-            alt=""
+            src=""
+            alt="img 2"
           />
           <p className="text-xl font-medium text-gray-500 p-2">Name</p>
         </div>
         <div className="flex flex-col">
           <img
-            src="https://www.ennobleip.com/wp-content/uploads/2022/07/miten-mehta-jpg.webp"
-            alt=""
+            src=""
+            alt="img 3"
           />
           <p className="text-xl font-medium text-gray-500 p-2">Name</p>
         </div>
         <div className="flex flex-col">
           <img
-            src="https://www.ennobleip.com/wp-content/uploads/2022/07/akram-jpg.webp"
-            alt=""
+            src=""
+            alt="img 4"
           />
           <p className="text-xl font-medium text-gray-500 p-2">Name</p>
         </div>
 
         <div className="flex flex-col">
           <img
-            src="https://www.ennobleip.com/wp-content/uploads/2022/03/ss.jpg"
-            alt=""
+            src=""
+            alt="img 5"
           />
           <p className="text-xl font-medium text-gray-500 p-2">Name</p>
         </div>
         <div className="flex flex-col">
           <img
-            src="https://www.ennobleip.com/wp-content/uploads/2022/07/Dinesh-Jotwanit-01-1.jpg"
-            alt=""
+            src=""
+            alt="img 6"
           />
           <p className="text-xl font-medium text-gray-500 p-2">Name</p>
         </div>
         <div className="flex flex-col">
           <img
-            src="https://www.ennobleip.com/wp-content/uploads/2022/07/miten-mehta-jpg.webp"
-            alt=""
+            src=""
+            alt="img 7"
           />
           <p className="text-xl font-medium text-gray-500 p-2">Name</p>
         </div>
         <div className="flex flex-col">
           <img
-            src="https://www.ennobleip.com/wp-content/uploads/2022/07/akram-jpg.webp"
-            alt=""
+            src=""
+            alt="img 8"
           />
           <p className="text-xl font-medium text-gray-500 p-2">Name</p>
         </div>

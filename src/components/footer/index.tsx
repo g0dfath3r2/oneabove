@@ -13,8 +13,6 @@ const Footer = () => {
   return (
     <div className="w-full">
       <footer>
-       
-
         <div className="footer px-4 py-12 relative">
           <div className=" grid grid-cols-4 footer-section">
             <div className="text-left">
@@ -91,45 +89,45 @@ const Footer = () => {
           </div>
 
           <div className="z-50 relative px-10 mt-8 footer-copyright">
-            <p className="text-gray-500">Copyrights © {year} Osans Studio. All Rights Reserved.</p>
+            <p className="text-gray-500">
+              Copyrights © {year} Osans Studio. All Rights Reserved.
+            </p>
           </div>
           <nav className="absolute right-0 top-0 h-full">
-          <ul className="flex flex-col items-center w-full footer-media-links right-40 h-full">
-            <li className=" p-4 items-center flex twitter text-white h-full">
-              <a href="#" className="flex items-center justify-center">
-                <BsTwitter size={20} className="mr-2" /> 
-                {/* Twitter */}
-              </a>
-            </li>
-            <li className=" p-4 items-center flex facebook text-white h-full">
-              <a href="#" className="flex items-center justify-center">
-                <BsFacebook size={20} className="mr-2" />
-                {/* Facebook */}
-              </a>
-            </li>
-            <li className=" p-4 items-center flex instagram text-white h-full">
-              <a href="#" className="flex items-center justify-center">
-                <BsInstagram size={20} className="mr-2" />
-                {/* Instagram */}
-              </a>
-            </li>
-            <li className=" p-4 items-center flex linkedin text-white h-full">
-              <a href="#" className="flex items-center justify-center">
-                <BsLinkedin size={20} className="mr-2" />
-                {/* Linkedin */}
-              </a>
-            </li>
-            <li className=" p-4 items-center flex youtube text-white h-full">
-              <a href="#" className="flex items-center justify-center">
-                <BsYoutube size={20} className="mr-2" />
-                {/* Youtube */}
-              </a>
-            </li>
-          </ul>
-        </nav>
+            <ul className="flex flex-col items-center w-full footer-media-links right-40 h-full">
+              <li className=" p-4 items-center flex twitter text-white h-full">
+                <a href="#" className="flex items-center justify-center">
+                  <BsTwitter size={20} className="" />
+                  {/* Twitter */}
+                </a>
+              </li>
+              <li className=" p-4 items-center flex facebook text-white h-full">
+                <a href="#" className="flex items-center justify-center">
+                  <BsFacebook size={20} className="" />
+                  {/* Facebook */}
+                </a>
+              </li>
+              <li className=" p-4 items-center flex instagram text-white h-full">
+                <a href="#" className="flex items-center justify-center">
+                  <BsInstagram size={20} className="" />
+                  {/* Instagram */}
+                </a>
+              </li>
+              <li className=" p-4 items-center flex linkedin text-white h-full">
+                <a href="#" className="flex items-center justify-center">
+                  <BsLinkedin size={20} className="" />
+                  {/* Linkedin */}
+                </a>
+              </li>
+              <li className=" p-4 items-center flex youtube text-white h-full">
+                <a href="#" className="flex items-center justify-center">
+                  <BsYoutube size={20} className="" />
+                  {/* Youtube */}
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
-
-       
       </footer>
     </div>
   );

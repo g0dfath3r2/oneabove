@@ -1,5 +1,6 @@
 .footer {
     background-color: #09111a;
+    position:relative;
 }
 
 .footer ul li a:hover{
@@ -30,13 +31,24 @@
         width:100vw;
     }
     .footer-media-links {
-        display: grid;
-        grid-template-columns: repeat(2,minmax(0, 1fr));
-        width:100vw;
-
+        display: flex;
+        /* grid-template-columns: repeat(5,minmax(0, 1fr)); */
+        flex-direction:column;
+        align-items:center;
+        width:5vw;
+        height:5%;
+        position:absolute;
+        right: 10;
+        top:50%;
     }
     .footer-media-links li {
+        display: flex;
         width:100%;
+        justify-content:center;
+        padding:20px;
+        align-items:center;
+text-align:center;
+
     }
     .footer-section{
         display:block;
@@ -44,6 +56,7 @@
     .footer-section img{
         height:100%;
         width:100%;
+        object-fit:contain
     }
     .footer-section h1 {
         font-size:1.5rem;

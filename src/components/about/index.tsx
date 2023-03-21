@@ -12,7 +12,7 @@ const About = (props: interfaceAbout) => {
       <div className="flex justify-around about-section ">
         <div className="about-image">
 
-        <img src="https://www.ennobleip.com/wp-content/uploads/2022/08/abttop-01-1.png" alt="" className="h-84" />
+        <img src="" alt="about image" className="h-84" />
         </div>
         <div className=" flex flex-col w-6/12 text-left about-text">
           <h6 style={{color:"#2380c0"}} className="leading-normal pb-2">About {name}</h6>
